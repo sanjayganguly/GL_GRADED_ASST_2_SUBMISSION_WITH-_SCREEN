@@ -1,0 +1,130 @@
+/* Resume Page */
+
+#resume-page{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 1100px;
+    margin: 2%;
+}
+
+
+#resumeHead{
+    display: inline-block;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    width : 900px; 
+}
+
+.resumeBtn{
+    position: relative;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 24px;
+}
+ 
+.resumeInput{
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 48px;
+    width: 500px;
+    font-size: 24px;
+    border-radius: 5px;
+ }
+
+#resume-title,
+#resume-image 
+{
+    text-align: center;
+    background-color: lightgreen;
+}
+
+#resume-title > h1 {
+    margin: 20px;
+}
+#resume-title > h3 {
+    margin: 10px;
+}
+
+.basic-title {
+    font-size: larger;
+    font-weight: bolder;
+    display: block;
+    background-color: gray;
+    padding: 5px;
+    padding-left: 20px;
+}
+.basic-info {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.work-title{
+    font-weight: bold;
+    font-size: x-large;
+    padding: 15px;
+}
+
+.work-subtitle{
+    font-weight: bold;
+    padding-left: 20px;
+    display: inline-block;
+    text-align: right;
+}
+.work-info > ul {
+    display: block;
+    padding-left: 20px;
+}
+
+.input-field-resume {
+    box-sizing: border-box;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 2px solid rgb(168, 168, 168);
+    outline: none;
+    width: 100%;
+    height: 100%
+}
+
+table, th, td {
+    border-spacing:0px
+}
+
+.work-info ul li span {
+    position : relative;
+    left : -20px;
+}
+
+.work-info ul li{
+    margin-left: 20px;
+}
+
+#resumePersonalWork tr td:first-child{
+    background-color: pink;
+    padding: 5px;
+}
+
+#resume-data{
+    border: 2px solid gray;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px gray;
+    margin-top: 10px;
+}
+#resumePersonalWork tr td:last-child{
+    padding: 5px;
+    padding-top: 0px ;
+}
+
+#dataNotFound {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-weight: bold;
+    font-style: italic;
+    text-align: left; 
+    padding: 0%;
+    margin: 10%;
+    margin-left: 42%;
+}
